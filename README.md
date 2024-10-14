@@ -50,6 +50,9 @@ https://github.com/huggingface/accelerate/blob/main/examples/inference/distribut
 
 colab t4
 
+https://colab.research.google.com/drive/1E7o2HjgtTOL7-NY3Qqcw8fUnEJyfAPA7?authuser=0#scrollTo=Pd4YCFkNs6Sr
+
+
 https://huggingface.co/Qwen/Qwen2.5-7B-Instruct
 
 https://www.tensorflow.org/install/pip
