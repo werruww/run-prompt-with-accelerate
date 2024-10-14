@@ -5,16 +5,23 @@ how to run-prompt-with-accelerate without train
 
 
 Qwen/Qwen2.5-7B-Instruct
+
 mistralai/Mistral-7B-Instruct-v0.3
+
 microsoft/phi-2
 
 !pip install git+https://github.com/huggingface/transformers
 
+
 !python3 -m pip install tensorflow[and-cuda]
+
 # Verify the installation:
+
 !python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 !pip install nvidia-tensorrt
 !pip install -r /content/requirements-docs.txt
+
+
 requirements-docs.txt
 furo
 myst-parser==4.0.0
@@ -24,7 +31,9 @@ sphinx-design>=0.6.0
 https://github.com/huggingface/accelerate/blob/main/examples/inference/distributed/phi2.py
 
 !accelerate launch --num_processes 1 a.py
+
 !accelerate launch --num_processes 1 aa.py
+
 !accelerate launch --num_processes 1 aaa.py
 
 
